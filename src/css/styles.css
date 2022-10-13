@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    background-image: url(https://cdn.discordapp.com/attachments/1010690441533980724/1029629741319323691/unknown.png);
+    background-repeat: no-repeat;
+  }
+
+h1{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--purple);
+    left: 127px;
+    top: 187px;
+    position: absolute;
+    width: 486px;
+    height: 54px;
+
+}
+
+img{
+    padding: 1px;
+    margin-left: 800px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.dia{
+    position: absolute;
+width: 30px;
+height: 21px;
+left: 152px;
+top: 260px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+text-transform: capitalize;
+color: #C8C8C8;
+}
+
+.horas{
+    position: absolute;
+width: 41px;
+height: 21px;
+left: 273px;
+top: 260px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #C8C8C8;
+}
+
+.minuto{
+    position: absolute;
+width: 54px;
+height: 21px;
+left: 405px;
+top: 260px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #C8C8C8;
+}
+
+
+.segundos{
+    
+position: absolute;
+width: 70px;
+height: 21px;
+left: 536px;
+top: 260px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #C8C8C8;
+}
+
+
+.acesse{
+    position: absolute;
+width: 349px;
+height: 21px;
+left: 196px;
+top: 405px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #9C9AB6;
+}
+  
+
+
+/* buttom */
+
+.pushable {
+    background: var(--purple);
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-top: 440px;
+    margin-left: 270px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: var(--purple);
+    color: white;
+    transform: translateY(-6px);
+  }
+  
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+
+
+  .demo{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -215px;
+    margin-right: 825px;
+    color: #4D4C59;
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
